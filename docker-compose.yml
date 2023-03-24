@@ -1,0 +1,11 @@
+version: '3'
+services:
+  chatgpt:
+    build: .
+    hostname: chatgpt
+    container_name: chatgpt
+    restart: unless-stopped
+    environment:
+      PYTHONUNBUFFERED: "${PYTHONUNBUFFERED}"
+      DISCORD_CLIENT_TOKEN: "${DISCORD_CLIENT_TOKEN}"
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
