@@ -18,6 +18,6 @@ Then execute the script with the command:
 ./start-docker
 ```
 
-## Collaborators
+## Contributors
 
 * [Leonardo Lima](https://github.com/leop25): Thanks for the initiative in creating the script and influencing the use of ChatGPT.
