@@ -26,8 +26,6 @@ After that, enable it with the command `systemctl enable chatgpt-discord-python.
 
 To check if the service is running correctly, use the command `systemctl status chatgpt-discord-python.service`.
 
-And it is all you need!
-
 To see the container logs, run the command `docker ps` to get the container id, and execute the command `docker logs CONTAINER_ID --follow` to see all the running logs in real-time, as the example below where the service started and is running perfectly:
 
 ```bash
@@ -36,6 +34,8 @@ docker@docker:~$ docker logs f97da8bac031 --follow
 2023-03-25 13:25:15 INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: 538bf54f6cf1f93b3dcca).
 Chatgpt Bot#5582 has connected to Discord!
 ```
+
+And it is all you need!
 
 ## Contributors
 
