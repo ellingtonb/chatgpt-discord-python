@@ -37,6 +37,14 @@ Chatgpt Bot#5582 has connected to Discord!
 
 And it is all you need!
 
+## Discord Usage
+
+After having your ChatGPT bot into your Discord server, you only need to ask it using the message `!chat ask something here?`.
+
+The `!chat` prefix tells ChatGPT to get the input message and request to ChatGPT of OpenAI.
+
+The answer will be returned sequentially below your question in the corresponding channel.
+
 ## Contributors
 
 * [Leonardo Lima](https://github.com/leop25): Thanks for the initiative in creating the script and influencing the use of ChatGPT.
